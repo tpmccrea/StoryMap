@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/mapbox/light-v10',
+    style: 'mapbox://styles/tpmccrea/ck709sezc4b0l1in56noqrq12',
     accessToken: 'pk.eyJ1IjoidHBtY2NyZWEiLCJhIjoiY2s2azA2eHpxMDFwZTNvdDgxaHdlaTJwbiJ9.F4x8uD_KK-UUf4V-eR2vzw',
     showMarkers: false,
     theme: 'light',
@@ -22,20 +22,20 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'phl-city-limits',
+                    layer: 'Data Center Locations',
                     opacity: .45
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'phl-city-limits',
+                    layer: 'Data Center Locations',
                     opacity: 0
                 }
             ]
         },
         {
-            id: 'bike-lanes',
-            title: 'Bike Lanes',
+            id: 'Coal Power Plants',
+            title: 'Coal Fired Power Plants',
             image: '',
             description: 'Philadelphia has XX miles of bike lanes, XX miles of which are protected. Drivers are getting more used to sharing the road, but ride defensively.',
             location: {
