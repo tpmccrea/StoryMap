@@ -53,26 +53,26 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'indego',
-            title: 'Indego Bike Share',
+            id: 'No Data Centers',
+            title: 'Absence of Data Centers',
             image: '',
-            description: 'Indego has been operating in Philadelphia since 20XX. The system initally was focused on Center City, but has expanded service to neighboring areas to support equitable mobility options to the city\'s residents.',
+            description: 'Some areas of the US are data center deserts',
             location: {
-                center: [-75.16468, 39.94503],
+                center: [-107.619124, 43.468877],
                 zoom: 13.15,
                 pitch: 60.00,
                 bearing: -16.80
             },
             onChapterEnter: [
                 {
-                    layer: 'indego-stations',
-                    opacity: 0.8
+                    layer: 'US_Data_Centers',
+                    opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'indego-stations',
-                    opacity: 0
+                    layer: 'US_Data_Centers',
+                    opacity: 1
                 }
             ]
         },
