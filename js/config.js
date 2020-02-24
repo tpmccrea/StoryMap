@@ -1,6 +1,6 @@
 var config = {
-    style: 'mapbox://styles/branigan/cjzsvonse027m1co4nkxp13b3',
-    accessToken: 'pk.eyJ1IjoibWJ4c29sdXRpb25zIiwiYSI6ImNrMm01aG9hdTBlZGwzbXQ1ZXVrNHNmejAifQ.QHQA0N6XPWddCXtvoODHZg',
+    style: 'mapbox://styles/mapbox/light-v10',
+    accessToken: 'pk.eyJ1IjoidHBtY2NyZWEiLCJhIjoiY2s2azA2eHpxMDFwZTNvdDgxaHdlaTJwbiJ9.F4x8uD_KK-UUf4V-eR2vzw',
     showMarkers: false,
     theme: 'light',
     alignment: 'right',
@@ -10,13 +10,13 @@ var config = {
     footer: '',
     chapters: [
         {
-            id: 'phl',
-            title: 'Philadelphia Bicycle Infrastructure',
+            id: 'DC',
+            title: 'US Data Center Locations',
             image: '',
-            description: 'Getting around Philadelphia on two wheels is fast, fun, and cheap. As a typical East Coast large city, the urban core is dense, so there is a lot within reach of a 15 minute ride... even mountain bike trails. Paired with the public transit infrastructure, cycling can be more efficient and much less expensive than driving (and parking) a car.',
+            description: 'Locations of US Data Centers, as well as Coal Fired Power Plants, and a map of US Counties showing Computer Ownership',
             location: {
-                center: [-75.13080, 39.97790],
-                zoom: 9.83,
+                center: [39.044960, -77.509766],
+                zoom: 5,
                 pitch: 0.00,
                 bearing: 0.00
             },
