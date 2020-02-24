@@ -23,13 +23,13 @@ var config = {
             onChapterEnter: [
                 {
                     layer: 'US_Data_Centers',
-                    opacity: .25
+                    opacity: 1
                 }
             ],
             onChapterExit: [
                 {
                     layer: 'US_Data_Centers',
-                    opacity: 0
+                    opacity: 1
                 }
             ]
         },
