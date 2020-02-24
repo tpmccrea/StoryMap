@@ -22,13 +22,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'Data Center Locations',
-                    opacity: .45
+                    layer: 'US_Data_Centers',
+                    opacity: .25
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'Data Center Locations',
+                    layer: 'US_Data_Centers',
                     opacity: 0
                 }
             ]
@@ -37,16 +37,16 @@ var config = {
             id: 'Coal Power Plants',
             title: 'Coal Fired Power Plants',
             image: '',
-            description: 'Philadelphia has XX miles of bike lanes, XX miles of which are protected. Drivers are getting more used to sharing the road, but ride defensively.',
+            description: 'Coal fired power plants cause the bulk of energy generation related emissions in the US',
             location: {
                 center: [-75.13901, 39.97085],
-                zoom: 11.62,
+                zoom: 10,
                 pitch: 55.50,
                 bearing: -7.20
             },
             onChapterEnter: [
                 {
-                    layer: 'phl-bike-network',
+                    layer: 'US_CF_PP',
                     opacity: 1
                 }
             ],
