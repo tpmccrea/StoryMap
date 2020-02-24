@@ -39,8 +39,8 @@ var config = {
             image: '',
             description: 'Coal fired power plants cause the bulk of energy generation related emissions in the US',
             location: {
-                center: [-75.13901, 39.97085],
-                zoom: 10,
+                center: [-82.627322, 38.462133],
+                zoom: 4,
                 pitch: 55.50,
                 bearing: -7.20
             },
