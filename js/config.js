@@ -15,7 +15,7 @@ var config = {
             image: '',
             description: 'Locations of US Data Centers, as well as Coal Fired Power Plants, and a map of US Counties showing Computer Ownership',
             location: {
-                center: [39.044960, -77.509766],
+                center: [-77.509766, 39.044960],
                 zoom: 5,
                 pitch: 0.00,
                 bearing: 0.00
