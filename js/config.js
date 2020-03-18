@@ -59,9 +59,9 @@ var config = {
             description: 'Some areas of the US are data center deserts',
             location: {
                 center: [-107.619124, 43.468877],
-                zoom: 2,
-                pitch: 60.00,
-                bearing: -16.80
+                zoom: 3.5,
+                pitch: 0,
+                bearing: 0
             },
             onChapterEnter: [
                 {
